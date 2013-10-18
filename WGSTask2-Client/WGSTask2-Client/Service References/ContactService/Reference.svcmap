@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="ac3d65f9-cbc0-4b7c-b5f4-7de09dfda81f" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:52149/ContactService.svc?wsdl" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="ContactService.xsd" MetadataType="Schema" ID="4cd6bab5-9190-4573-bc72-9ad9a852a55d" SourceId="1" SourceUrl="http://localhost:52149/ContactService.svc?xsd=xsd0" />
+    <MetadataFile FileName="ContactService.wsdl" MetadataType="Wsdl" ID="f1b7fa52-5e9a-4d3e-8ba7-fe9b7b6d758e" SourceId="1" SourceUrl="http://localhost:52149/ContactService.svc?wsdl" />
+    <MetadataFile FileName="ContactService1.xsd" MetadataType="Schema" ID="bafbae9d-f84f-43e4-a658-677f39cf5945" SourceId="1" SourceUrl="http://localhost:52149/ContactService.svc?xsd=xsd2" />
+    <MetadataFile FileName="ContactService2.xsd" MetadataType="Schema" ID="967a370c-17aa-40f2-a7da-85eef64640ce" SourceId="1" SourceUrl="http://localhost:52149/ContactService.svc?xsd=xsd1" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>
