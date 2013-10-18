@@ -13,6 +13,8 @@ namespace WGSTask2_Client
 
         protected void Page_Load(object sender, EventArgs e)
         {
+            Label1.Text = "";
+
             if (!IsPostBack)
             {
                 proxy = new ContactService.ContactServiceClient();
@@ -35,18 +37,7 @@ namespace WGSTask2_Client
 
             GridView1.DataSource = proxy.GetAllContact();
             GridView1.DataBind();
-            Label1.Text = "Record Saved Successfully";
-        }
-
-        protected void GridView1_RowDeleting(object sender, GridViewDeleteEventArgs e)
-        {
-            int userid = Convert.ToInt32(GridView1.DataKeys[e.RowIndex].Values["cID"].ToString());
-            proxy = new ContactService.ContactServiceClient();
-
-            bool check = proxy.DeleteContact(userid);
-            Label1.Text = "Record Deleted Successfully";
-            GridView1.DataSource = proxy.GetAllContact();
-            GridView1.DataBind();
+            Label1.Text = "Saved Successfully";
         }
     }
 }

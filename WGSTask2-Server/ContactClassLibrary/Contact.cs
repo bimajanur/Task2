@@ -6,6 +6,8 @@ using System.Runtime.Serialization;
 
 namespace ContactClassLibrary
 {
+    //interface untuk contact service
+
     [DataContract]
     public class Contact
     {

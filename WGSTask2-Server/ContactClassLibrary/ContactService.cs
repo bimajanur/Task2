@@ -7,6 +7,8 @@ namespace ContactClassLibrary
 {
     public class ContactService : IContactService
     {
+        //contact service 
+
         public bool InsertContact(Contact obj)
         {
             contactList.Add(obj);
